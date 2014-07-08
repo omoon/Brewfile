@@ -15,10 +15,12 @@ install curl
 install vim
 
 install ansible
+install node
 
 install php55 --with-mysql --with-pdo-mysql
 install php55-mcrypt php55-xdebug php55-opcache composer
 
+cask install gas-mask
 
 cask install phpstorm
 cask install rubymine
@@ -34,3 +36,4 @@ cask install google-chrome
 cask install google-japanese-ime
 cask install quicksilver
 cask install kobito
+cask install heroku-toolbelt
